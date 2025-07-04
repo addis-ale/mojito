@@ -27,7 +27,9 @@ body {
 @utility flex-center {
   @apply flex justify-center items-center;
 }
-
+@utility padding {
+  @apply px-4 md:px-8 lg:mx-16 xl:px-32 2xl:px-64;
+}
 @utility col-center {
   @apply flex flex-col justify-center items-center;
 }
